@@ -10972,3 +10972,19 @@ body{
     max-width: 100%; /* Ocupa el ancho completo de la pantalla en dispositivos móviles */
     padding: 10px; /* Agrega un espacio alrededor del formulario para dispositivos móviles */
   }
+}
+
+.py-7{
+  max-width: 100%;
+}
+
+.imgbanner{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .imgbanner {
+    max-width: 100%; 
+  }
+}
