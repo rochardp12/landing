@@ -10966,3 +10966,9 @@ body{
 .py-9{
   font-family: 'ABeeZee', sans-serif;
 }
+
+@media (max-width: 768px) {
+  .formulario {
+    max-width: 100%; /* Ocupa el ancho completo de la pantalla en dispositivos móviles */
+    padding: 10px; /* Agrega un espacio alrededor del formulario para dispositivos móviles */
+  }
